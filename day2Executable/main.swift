@@ -11,5 +11,5 @@ import day2
 let input = try String(contentsOfFile: "day2input.txt", encoding: .utf8)
     .split(separator: "\n")
 
-print("Score of part 1: \(part1(input))")
-print("Score of part 2: \(part2(input))")
+print("Score of part 1: \(Part1.calculateScore(input))")
+print("Score of part 2: \(Part2.calculateScore(input))")

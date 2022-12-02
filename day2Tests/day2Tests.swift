@@ -17,10 +17,10 @@ class day2Tests: XCTestCase {
     ]
     
     func testPart1() {
-        XCTAssertEqual(part1(testInput), 15)
+        XCTAssertEqual(Part1.calculateScore(testInput), 15)
     }
 
     func testPart2() {
-        XCTAssertEqual(part2(testInput), 12)
+        XCTAssertEqual(Part2.calculateScore(testInput), 12)
     }
 }
