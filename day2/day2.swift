@@ -83,8 +83,8 @@ public enum RoundParseError: Error {
 }
 
 public struct Part1Round {
-    var opponentShape: Shape
-    var playerShape: Shape
+    let opponentShape: Shape
+    let playerShape: Shape
     
     init<S: StringProtocol>(line: S) throws {
         let shapes = line.split(separator: " ")
@@ -98,8 +98,8 @@ public struct Part1Round {
 }
 
 public struct Part2Round {
-    var opponentShape: Shape
-    var expectedResult: RoundResult
+    let opponentShape: Shape
+    let expectedResult: RoundResult
     
     init<S: StringProtocol>(line: S) throws {
         let shapeAndResult = line.split(separator: " ", maxSplits: 1)
