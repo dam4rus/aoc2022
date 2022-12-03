@@ -20,10 +20,10 @@ class day3Tests: XCTestCase {
     ]
 
     func testPart1() {
-        XCTAssertEqual(testInput.reduce(0, { $0 + Rucksack(content: $1).priority() }), 157)
+        XCTAssertEqual(try Part(testInput.map { Rucksack(content: $0) }).priority(), 157)
     }
     
     func testPart2() {
-        XCTAssertEqual(try ElfGroups(input: testInput).map { try $0.priority() }.reduce(0) { $0 + $1 }, 70);
+        XCTAssertEqual(try Part(ElfGroups(input: testInput)).priority(), 70)
     }
 }

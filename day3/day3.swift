@@ -7,16 +7,16 @@
 
 import Foundation
 
-public struct Input<S: StringProtocol> {
-    let lines: [S]
+public struct Part<R> where R: Sequence, R.Element : PartProtocol {
+    let rucksacks: R
     
-    public init(_ inputLines: [S]) {
-        lines = inputLines
+    public init(_ input: R) {
+        self.rucksacks = input
     }
     
-//    public func elfGroups() -> ElfGroupIterator<S> {
-//        ElfGroupIterator(input: lines)
-//    }
+    public func priority() throws -> UInt {
+        try rucksacks.reduce(0, { try $0 + $1.priority() })
+    }
 }
 
 public struct Item {
@@ -34,38 +34,53 @@ public struct Item {
     }
 }
 
-public struct Rucksack<S: StringProtocol> {
+public protocol PartProtocol {
+    associatedtype CommonCharacterCollection: Collection where CommonCharacterCollection.Element == Character
+    
+    func commonCharacters() -> CommonCharacterCollection
+}
+
+public extension PartProtocol {
+    func priority() throws -> UInt {
+        let commonCharacters = commonCharacters()
+        if commonCharacters.count != 1 {
+            throw RucksackError.invalidCommonItemCount(count: commonCharacters.count)
+        }
+        
+        return Item(character: commonCharacters.first!).priority()
+    }
+}
+
+public struct Rucksack<S: StringProtocol>: PartProtocol {
+    public typealias CommonCharacterCollection = Set<Character>
+    
     let content: S
     
     public init(content: S) {
         self.content = content
     }
     
-    public func priority() -> UInt {
+    public func commonCharacters() -> CommonCharacterCollection {
         let midIndex = content.index(content.startIndex, offsetBy: content.count / 2)
         let (firstCompartment, secondCompartment) = (
-            content[content.startIndex ..< midIndex],
-            content[midIndex ..< content.endIndex]
+            Set(content[content.startIndex ..< midIndex]),
+            Set(content[midIndex ..< content.endIndex])
         )
-        let commonItems = Set(firstCompartment).intersection(secondCompartment)
-        return commonItems.reduce(UInt(0), { $0 + Item(character: $1).priority() })
+        return firstCompartment.intersection(secondCompartment)
     }
 }
 
-public struct ElfGroup<S: StringProtocol> {
-    let rucksacks: ArraySlice<S>
-
+public struct ElfGroup<S: StringProtocol>: PartProtocol {
+    public typealias CommonCharacterCollection = Set<Character>
     
-    public func priority() throws -> UInt {
-        let commonCharacters = rucksacks.dropFirst()
+    let rucksacks: ArraySlice<S>
+    
+    public func commonCharacters() -> CommonCharacterCollection {
+        rucksacks.dropFirst()
             .map { Set($0) }
             .reduce(Set(rucksacks.first!)) {
                 $0.intersection($1)
             }
-        if commonCharacters.count != 1 {
-            throw ElfGroupError.invalidCommonItemCount(count: commonCharacters.count)
-        }
-        return Item(character: commonCharacters.first!).priority()
     }
 }
 
@@ -89,7 +104,10 @@ public struct ElfGroups<S: StringProtocol>: Sequence, IteratorProtocol {
     }
 }
 
+public enum RucksackError: Error {
+    case invalidCommonItemCount(count: Int)
+}
+
 public enum ElfGroupError: Error {
     case invalidGroupCount
-    case invalidCommonItemCount(count: Int)
 }
