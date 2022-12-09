@@ -49,6 +49,12 @@
 		6154F6DF2940851B00EE21BC /* Day7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6154F6DE2940851B00EE21BC /* Day7.swift */; };
 		6154F6E72940C4C300EE21BC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6154F6E62940C4C300EE21BC /* main.swift */; };
 		6154F6EC2940C50700EE21BC /* day7input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6154F6EB2940C4DF00EE21BC /* day7input.txt */; };
+		6154F6FC2942841900EE21BC /* Day8.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6154F6F42942841900EE21BC /* Day8.framework */; };
+		6154F7012942841900EE21BC /* Day8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6154F7002942841900EE21BC /* Day8Tests.swift */; };
+		6154F7022942841900EE21BC /* Day8.h in Headers */ = {isa = PBXBuildFile; fileRef = 6154F6F62942841900EE21BC /* Day8.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6154F70A2942973A00EE21BC /* Day8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6154F7092942973A00EE21BC /* Day8.swift */; };
+		6154F71229429C4A00EE21BC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6154F71129429C4A00EE21BC /* main.swift */; };
+		6154F71729429C7900EE21BC /* day8input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6154F71629429C6300EE21BC /* day8input.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +156,20 @@
 			remoteGlobalIDString = 6154F6C8294079DC00EE21BC;
 			remoteInfo = Day7;
 		};
+		6154F6FD2942841900EE21BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6154F56029391D8D00EE21BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6154F6F32942841900EE21BC;
+			remoteInfo = Day8;
+		};
+		6154F71829429C8100EE21BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6154F56029391D8D00EE21BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6154F6F32942841900EE21BC;
+			remoteInfo = Day8;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -223,6 +243,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6154F70D29429C4A00EE21BC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				6154F71729429C7900EE21BC /* day8input.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -283,6 +313,14 @@
 		6154F6E42940C4C300EE21BC /* Day7Executable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day7Executable; sourceTree = BUILT_PRODUCTS_DIR; };
 		6154F6E62940C4C300EE21BC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6154F6EB2940C4DF00EE21BC /* day7input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day7input.txt; sourceTree = "<group>"; };
+		6154F6F42942841900EE21BC /* Day8.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Day8.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6154F6F62942841900EE21BC /* Day8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day8.h; sourceTree = "<group>"; };
+		6154F6FB2942841900EE21BC /* Day8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6154F7002942841900EE21BC /* Day8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8Tests.swift; sourceTree = "<group>"; };
+		6154F7092942973A00EE21BC /* Day8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8.swift; sourceTree = "<group>"; };
+		6154F70F29429C4A00EE21BC /* Day8Executable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day8Executable; sourceTree = BUILT_PRODUCTS_DIR; };
+		6154F71129429C4A00EE21BC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6154F71629429C6300EE21BC /* day8input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day8input.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -440,6 +478,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6154F6F12942841900EE21BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6154F6F82942841900EE21BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6154F6FC2942841900EE21BC /* Day8.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6154F70C29429C4A00EE21BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -467,6 +527,9 @@
 				6154F6CA294079DC00EE21BC /* Day7 */,
 				6154F6D4294079DD00EE21BC /* Day7Tests */,
 				6154F6E52940C4C300EE21BC /* Day7Executable */,
+				6154F6F52942841900EE21BC /* Day8 */,
+				6154F6FF2942841900EE21BC /* Day8Tests */,
+				6154F71029429C4A00EE21BC /* Day8Executable */,
 				6154F56929391D8D00EE21BC /* Products */,
 				6154F5742939229A00EE21BC /* Frameworks */,
 			);
@@ -496,6 +559,9 @@
 				6154F6C9294079DC00EE21BC /* Day7.framework */,
 				6154F6D0294079DD00EE21BC /* Day7Tests.xctest */,
 				6154F6E42940C4C300EE21BC /* Day7Executable */,
+				6154F6F42942841900EE21BC /* Day8.framework */,
+				6154F6FB2942841900EE21BC /* Day8Tests.xctest */,
+				6154F70F29429C4A00EE21BC /* Day8Executable */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -690,6 +756,32 @@
 			path = Day7Executable;
 			sourceTree = "<group>";
 		};
+		6154F6F52942841900EE21BC /* Day8 */ = {
+			isa = PBXGroup;
+			children = (
+				6154F6F62942841900EE21BC /* Day8.h */,
+				6154F7092942973A00EE21BC /* Day8.swift */,
+			);
+			path = Day8;
+			sourceTree = "<group>";
+		};
+		6154F6FF2942841900EE21BC /* Day8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6154F7002942841900EE21BC /* Day8Tests.swift */,
+			);
+			path = Day8Tests;
+			sourceTree = "<group>";
+		};
+		6154F71029429C4A00EE21BC /* Day8Executable */ = {
+			isa = PBXGroup;
+			children = (
+				6154F71129429C4A00EE21BC /* main.swift */,
+				6154F71629429C6300EE21BC /* day8input.txt */,
+			);
+			path = Day8Executable;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -746,6 +838,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6154F6D7294079DE00EE21BC /* Day7.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6154F6EF2942841800EE21BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6154F7022942841900EE21BC /* Day8.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1130,6 +1230,60 @@
 			productReference = 6154F6E42940C4C300EE21BC /* Day7Executable */;
 			productType = "com.apple.product-type.tool";
 		};
+		6154F6F32942841900EE21BC /* Day8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6154F7032942841900EE21BC /* Build configuration list for PBXNativeTarget "Day8" */;
+			buildPhases = (
+				6154F6EF2942841800EE21BC /* Headers */,
+				6154F6F02942841800EE21BC /* Sources */,
+				6154F6F12942841900EE21BC /* Frameworks */,
+				6154F6F22942841900EE21BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Day8;
+			productName = Day8;
+			productReference = 6154F6F42942841900EE21BC /* Day8.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6154F6FA2942841900EE21BC /* Day8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6154F7062942841900EE21BC /* Build configuration list for PBXNativeTarget "Day8Tests" */;
+			buildPhases = (
+				6154F6F72942841900EE21BC /* Sources */,
+				6154F6F82942841900EE21BC /* Frameworks */,
+				6154F6F92942841900EE21BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6154F6FE2942841900EE21BC /* PBXTargetDependency */,
+			);
+			name = Day8Tests;
+			productName = Day8Tests;
+			productReference = 6154F6FB2942841900EE21BC /* Day8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6154F70E29429C4A00EE21BC /* Day8Executable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6154F71329429C4A00EE21BC /* Build configuration list for PBXNativeTarget "Day8Executable" */;
+			buildPhases = (
+				6154F70B29429C4A00EE21BC /* Sources */,
+				6154F70C29429C4A00EE21BC /* Frameworks */,
+				6154F70D29429C4A00EE21BC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6154F71929429C8100EE21BC /* PBXTargetDependency */,
+			);
+			name = Day8Executable;
+			productName = Day8Executable;
+			productReference = 6154F70F29429C4A00EE21BC /* Day8Executable */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1210,6 +1364,16 @@
 					6154F6E32940C4C300EE21BC = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
+					6154F6F32942841900EE21BC = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+					6154F6FA2942841900EE21BC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6154F70E29429C4A00EE21BC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 				};
 			};
 			buildConfigurationList = 6154F56329391D8D00EE21BC /* Build configuration list for PBXProject "aoc2022" */;
@@ -1246,6 +1410,9 @@
 				6154F6C8294079DC00EE21BC /* Day7 */,
 				6154F6CF294079DD00EE21BC /* Day7Tests */,
 				6154F6E32940C4C300EE21BC /* Day7Executable */,
+				6154F6F32942841900EE21BC /* Day8 */,
+				6154F6FA2942841900EE21BC /* Day8Tests */,
+				6154F70E29429C4A00EE21BC /* Day8Executable */,
 			);
 		};
 /* End PBXProject section */
@@ -1343,6 +1510,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6154F6CE294079DD00EE21BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6154F6F22942841900EE21BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6154F6F92942841900EE21BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1520,6 +1701,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6154F6F02942841800EE21BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6154F70A2942973A00EE21BC /* Day8.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6154F6F72942841900EE21BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6154F7012942841900EE21BC /* Day8Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6154F70B29429C4A00EE21BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6154F71229429C4A00EE21BC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1592,6 +1797,16 @@
 			isa = PBXTargetDependency;
 			target = 6154F6C8294079DC00EE21BC /* Day7 */;
 			targetProxy = 6154F6ED2940C50D00EE21BC /* PBXContainerItemProxy */;
+		};
+		6154F6FE2942841900EE21BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6154F6F32942841900EE21BC /* Day8 */;
+			targetProxy = 6154F6FD2942841900EE21BC /* PBXContainerItemProxy */;
+		};
+		6154F71929429C8100EE21BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6154F6F32942841900EE21BC /* Day8 */;
+			targetProxy = 6154F71829429C8100EE21BC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2472,6 +2687,115 @@
 			};
 			name = Release;
 		};
+		6154F7042942841900EE21BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudera.Day8;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6154F7052942841900EE21BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudera.Day8;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6154F7072942841900EE21BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudera.Day8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6154F7082942841900EE21BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cloudera.Day8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6154F71429429C4A00EE21BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6154F71529429C4A00EE21BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2669,6 +2993,33 @@
 			buildConfigurations = (
 				6154F6E92940C4C300EE21BC /* Debug */,
 				6154F6EA2940C4C300EE21BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6154F7032942841900EE21BC /* Build configuration list for PBXNativeTarget "Day8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6154F7042942841900EE21BC /* Debug */,
+				6154F7052942841900EE21BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6154F7062942841900EE21BC /* Build configuration list for PBXNativeTarget "Day8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6154F7072942841900EE21BC /* Debug */,
+				6154F7082942841900EE21BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6154F71329429C4A00EE21BC /* Build configuration list for PBXNativeTarget "Day8Executable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6154F71429429C4A00EE21BC /* Debug */,
+				6154F71529429C4A00EE21BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
