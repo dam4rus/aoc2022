@@ -160,9 +160,26 @@ noop
 """
     
     let interestingCycles = [ 20, 60, 100, 140, 180, 220 ]
+    let expectedCrt = """
+##..##..##..##..##..##..##..##..##..##..
+###...###...###...###...###...###...###.
+####....####....####....####....####....
+#####.....#####.....#####.....#####.....
+######......######......######......####
+#######.......#######.......#######.....
+"""
     
     func testPart1() {
-        let device = try! Device(instructions: input.split(separator: "\n").map { try Instruction(fromLine: $0) })       
+        let device = try! Device(instructions: input.split(separator: "\n").map { try Instruction(fromLine: $0) })
         XCTAssertEqual(device.sumSignals(interestingCycles: interestingCycles), 13140)
+    }
+    
+    func testPart2() {
+        let device = try! Device(instructions: input.split(separator: "\n").map { try Instruction(fromLine: $0 )})
+        (0..<240).forEach { _ in
+            let _ = device.executeCycle()
+            device.draw()
+        }
+        XCTAssertEqual(device.printCrt(), expectedCrt)
     }
 }

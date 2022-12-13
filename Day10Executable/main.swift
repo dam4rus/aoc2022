@@ -14,3 +14,10 @@ let input = try String(contentsOfFile: "day10input.txt", encoding: .utf8)
 
 let device = try! Device(instructions: input.map { try Instruction(fromLine: $0) })
 print("Sum of signals \(device.sumSignals(interestingCycles: interestingCycles))")
+
+let device2 = try! Device(instructions: input.map { try Instruction(fromLine: $0) })
+(0..<240).forEach { _ in
+    let _ = device2.executeCycle()
+    device2.draw()
+}
+print(device2.printCrt())

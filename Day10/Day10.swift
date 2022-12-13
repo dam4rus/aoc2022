@@ -42,11 +42,18 @@ public class Device {
     var instructions: IndexingIterator<[Instruction]>
     var currentInstruction: Instruction
     var instructionEndCycle: Int
+    var crtPixels = Array(repeating: Array.init(repeating: false, count: 40), count: 6)
     
     public init(instructions: [Instruction]) {
         self.instructions = instructions.makeIterator()
         currentInstruction = self.instructions.next()!
         instructionEndCycle = cycle + currentInstruction.cycleCount()
+    }
+    
+    public func draw() {
+        let positionY = (cycle - 1) / 40;
+        let positionX = (cycle - 1) % 40;
+        crtPixels[positionY][positionX] = [x - 1, x, x + 1].contains(positionX)
     }
     
     public func executeCycle() -> Int {
@@ -76,10 +83,16 @@ public class Device {
                 return sum
             }
     }
+    
+    public func printCrt() -> String {
+        crtPixels.map { $0.map { $0 ? "#" : "." }.joined() }.joined(separator: "\n")
+    }
         
     public var signalStrength: Int {
         get { cycle * x }
     }
+    
+    
 }
 
 public enum InstructionError<S: StringProtocol>: Error {
