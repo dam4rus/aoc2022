@@ -1,0 +1,162 @@
+                                                                                                          
+                                                                                                          
+                                                                                                          
+                                                                                                          
+                                                                                                          
+                                                                                                          
+                           O                                                                              
+                          OOO                                                                             
+                         OOOOO                                                                            
+                        OOOOOOO                                                                           
+                       OOOOOOOOO                                                                          
+                      OOOOOOOOOOO                                                                         
+                     OOOOOOOOOOOOO                                                                        
+                    OOOOOOOOOOOOOOO                                                                       
+                   OOOOOOOOO#OOOOOOO                                                                      
+                  #OOO#O#OOO#OOOOO#OO                                                                     
+                  #OOO#O#OOO#OOOOO#OOO                                                                    
+                  #OOO#O#OOO#OOOOO#OOOO                                                                   
+                  #O#O#O#O#O#OOOOO#OOOOO                                                                  
+                  #O#O#O#O#O#OOO#O#OOOOOO                                                                 
+                  #O#O#O#O#O#OOO#O#OOOOOOO                                                                
+                  #O#O#O#O#O#O#O#O#OOOOOOOO                                                               
+                  #O#O#O#O#O#O#O#O#OOOOOOOOO                                                              
+                  #################OOOOOOOOOO                                                             
+                                  OOOOOOOOOOOO                                                            
+                                 OOOOOOOOOOOOOO                                                           
+                                O#####OOOOOOOOOO                                                          
+                               OOO   OOOOOOOOOOOO                                                         
+                              ##### #####OOOOOOOOO                                                        
+                                        OOOOOOOOOOO                                                       
+                           ##### ##### #####OOOOOOOO                                                      
+                                           OOOOOOOOOO                                                     
+                        ##### ##### ##### #####OOOOOOO                                                    
+                                              OOOOOOOOO                                                   
+                     ##### ##### ##### ##### #####OOOOOO                                                  
+                                                 OOOOOOOO                                                 
+                                                OOOOOOOOOO                                                
+                                               OOOOOOOOOOOO                                               
+                                              OOOOOOO#OOOOOO                                              
+                                             OOOOOOOO#OOOOOOO                                             
+                                            OOOOOOOOO#OOOOOOOO                                            
+                                         # OOOOOOOOOO#OOOOOOOOO                                           
+                                         #O#O#OOOOO#O#OOOOOOOOOO                                          
+                                         #O#O#OOOOO#O#O#OOOOOOOOO                                         
+                                         #O#O#O#O#O#O#O#O#OOOOOOOO                                        
+                                         #O#O#O#O#O#O#O#O#OOOOOOOOO                                       
+                                         #O#O#O#O#O#O#O#O#OOOOOOOOOO                                      
+                                         #################OOOOOOOOOOO                                     
+                                                         OOOOOOOOOOOOO                                    
+                                                        OOOOOOOOOOOOOOO                                   
+                                                       OO#OOO#OOOOOOOOOO                                  
+                                                      OOO#OOO#OOOOOOOOOOO                                 
+                                                     OOOO#OOO#OOOOOOOOOOOO                                
+                                                  ########OOO########OOOOOO                               
+                                                  #      OOOOO      #OOOOOOO                              
+                                                  #     OOOOOOO     #OOOOOOOO                             
+                                                  #    OOOOOOOOO    #OOOOOOOOO                            
+                                                  ###################OOOOOOOOOO                           
+                                                                    OOOOOOOOOOOO                          
+                                                                   OOOOOOOOOOOOOO                         
+                                                                  O#####OOOOOOOOOO                        
+                                                                 OOO   OOOOOOOOOOOO                       
+                                                                ##### #####OOOOOOOOO                      
+                                                                          OOOOOOOOOOO                     
+                                                             ##### ##### #####OOOOOOOO                    
+                                                                             OOOOOOOOOO                   
+                                                          ##### ##### ##### #####OOOOOOO                  
+                                                                                OOOOOOOOO                 
+                                                       ##### ##### ##### ##### #####OOOOOO                
+                                                                                   OOOOOOOO               
+                                                                                  OOOOOOOOOO              
+                                                                                 OOOOOOOOOOOO             
+                                                                                OOOOOOOOOOOOOO            
+                OO                                                        #    OOOOOOOOOOOOOOOO           
+               OOOO                                                       #####################O          
+              OOOOOO                                                                          OOO         
+             OOOOOOOO                                                                        OOOOO        
+            OOOOOOOOOO                                                                  #   OOOOOOO      #
+           OOOOOOOOOOOO                                                                 ##################
+          OOOOOOOOOOOOOO                                                                                  
+         OOOOOOOOOOOOOOOO                                                                                 
+        OOOOOOOOOOOOOOOOO#                                                                                
+       OO#################                                                                                
+      OOOO                                                                                                
+     OOOOOO                                                                                               
+    OO#OOO#O                                                                                              
+   OOO#OOO#OO                                                                                             
+#######OOO####                                                                                            
+#     OOOOO  #            O                                                                               
+#    OOOOOOO #           OOO                                                                              
+#   OOOOOOOOO#          OOOOO                                                                             
+#  OOOOOOOOOO#         OOOOOOO                                                                            
+# OOOOOOOOOOO#        OOOOOOOOO                                                                           
+#OOOOOOOOOOOO#       OOOOOOOOOOO                                                                          
+##############      OOOOOOOOOOOOO                                                                         
+                   OOOOOOOOOOOOOOO                                                                        
+                  OOOOOOOOOOOOOOOOO                                                                       
+                 OOOOOO#OOOOO#OOOOOO                                                                      
+                OOOOOOO#OOOOO#OOOOOOO                                                                     
+               #########OOOOO#######OO                                                                    
+               #       OOOOOOO     #OOO                                                                   
+               #      OOOOOOOOO    #OOOO                                                                  
+               #     OOOOOOOOOOO   #OOOOO                                                                 
+               #####################OOOOOO                                                                
+                                   OOOOOOOO                                                               
+                                  OOOOOOOOOO                                                              
+                                 ######OOOOOO                                                             
+                                      OOOOOOOO                                                            
+                              ###### ######OOOO                                                           
+                                          OOOOOO                                                          
+                           ###### ###### ######OO                                                         
+                                              OOOO                                                        
+                        ###### ###### ###### ######                                                       
+                                                                                                          
+              O                                                                                           
+             #OO #                                                                                        
+            O#OOO#                                                                                        
+           ###OOO#####                                                                                    
+           # OOOOO   #                                                                                    
+           #OOOOOOO  #                                                                                    
+           #OOOOOOOO #                                                                                    
+           #OOOOOOOOO#                                                                                    
+           #OOOOOOOOO#                                                                                    
+           ###########                                                                                    
+                                                                                                          
+                                                                                                          
+                                                                                                          
+        #OO                                                                                               
+        #OOO                                                                                              
+        #OOO#                                                                                             
+        #OOO#                                                                                             
+        #O#O#                                                                                             
+        #O#O#                                                                                             
+    #   #O#O#                                                                                             
+    #   #O#O#O                                                                                            
+    # # #O#O#O#                                                                                           
+    ###########                                                                                           
+                                                                                                          
+                                                                                                          
+              OO                                                                                          
+         #   OOO#                                                                                         
+         ########                                                                                         
+                                                                                                          
+                                                                                                          
+                O#                                                                                        
+               OO#O                                                                                       
+             #OOO#OO                                                                                      
+             #OOO#O#O                                                                                     
+             #OOO#O#OO                                                                                    
+           # #OOO#O#OOO                                                                                   
+           # #OOO#O#OOOO                                                                                  
+           # #OOO#O#O#O#O                                                                                 
+         # # #OOO#O#O#O#OO                                                                                
+         # # #O#O#O#O#O#OOO                                                                               
+         ###############OOOO                                                                              
+                       OOOOOO                                                                             
+                      OOOOOOOO                                                                            
+                     ######OOOO                                                                           
+                          OOOOOO                                                                          
+                  ###### ######OO                                                                         
+                              OOOO                                                                        
+               ###### ###### ######                                                                       
